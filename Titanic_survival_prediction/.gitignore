@@ -4,9 +4,8 @@ cat > .gitignore << EOF
 __pycache__/
 *.pyc
 
-# Data
-data/*.csv
-*.csv
+**/data/*.csv
+**/*.csv
 
 # Environment
 .venv/
