@@ -1,0 +1,25 @@
+cat > .gitignore << EOF
+# Jupyter
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Data
+data/*.csv
+*.csv
+
+# Environment
+.venv/
+env/
+venv/
+.env
+
+# Outputs
+__results__/
+outputs/
+*.png
+*.jpg
+
+# OS
+.DS_Store
+EOF
